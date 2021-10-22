@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+    <defs>
+        <mask id='ye'>
+            <rect width="400" height="500" fill="white"/>
+            <circle cx="200" cy="100" r="120" fill="black"/>
+        </mask>
+        <clipPath id="cut">
+            <rect width="80%" height="500" />
+        </clipPath>
+    </defs>
+    <circle cx="200" cy="100" r="89.5" stroke="black" fill="black" clip-path="url(#cut)"/>
+    <ellipse cx='200' cy='500' rx="180" ry="320" fill='none' stroke='black' stroke-width='31.5' mask='url(#ye)' clip-path="url(#cut)"></ellipse>
+</svg>

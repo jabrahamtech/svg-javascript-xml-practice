@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+    <defs>
+        <mask id='ye'>
+            <rect width="400" height="500" fill="white"/>
+            <circle cx="200" cy="100" r="120" fill="black"/>
+        </mask>
+    </defs>
+    <circle cx="200" cy="100" r="89.5" stroke="black" fill="black" />
+    <ellipse cx='200' cy='500' rx="180" ry="320" fill='none' stroke='black' stroke-width='31.5' mask='url(#ye)'></ellipse>
+</svg>
